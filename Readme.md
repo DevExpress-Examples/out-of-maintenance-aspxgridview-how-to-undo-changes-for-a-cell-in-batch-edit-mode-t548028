@@ -9,6 +9,9 @@
 * [HotKeys.aspx.cs](./CS/HotKeys.aspx.cs) (VB: [HotKeys.aspx.vb](./VB/HotKeys.aspx.vb))
 <!-- default file list end -->
 # ASPxGridView - How to undo changes for a cell in Batch Edit Mode
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/t548028/)**
+<!-- run online end -->
 
 
 <p>This example demonstrates two approaches to reset cell changes.<br>1) It is allowed to reset changes for a cell via the context menu item.<br>2) It is possible to undo the last change of the modified cell value using 'Ctrl+Z' hot keys.<br>For detailed information, see Implementation Details.<br><strong>If you wish to use both approaches at once in your project, you need to synchronize the changedCells stack from the 'HotKey' approach with actual cells that were changed after resetting a value via the context menu item.</strong></p>
