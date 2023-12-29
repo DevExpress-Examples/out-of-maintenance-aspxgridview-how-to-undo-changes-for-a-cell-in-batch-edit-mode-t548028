@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128535955/17.1.3%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T548028)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
 
@@ -14,9 +9,6 @@
 * [HotKeys.aspx.cs](./CS/HotKeys.aspx.cs) (VB: [HotKeys.aspx.vb](./VB/HotKeys.aspx.vb))
 <!-- default file list end -->
 # ASPxGridView - How to undo changes for a cell in Batch Edit Mode
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t548028/)**
-<!-- run online end -->
 
 
 <p>This example demonstrates two approaches to reset cell changes.<br>1) It is allowed to reset changes for a cell via the context menu item.<br>2) It is possible to undo the last change of the modified cell value using 'Ctrl+Z' hot keys.<br>For detailed information, see Implementation Details.<br><strong>If you wish to use both approaches at once in your project, you need to synchronize the changedCells stack from the 'HotKey' approach with actual cells that were changed after resetting a value via the context menu item.</strong></p>
